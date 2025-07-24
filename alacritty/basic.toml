@@ -1,0 +1,25 @@
+[colors]
+  [colors.primary]
+    background = "#000000"  # Pure black background
+    foreground = "#ffffff"  # White text
+
+  [colors.normal]
+    black   = "#000000"  # Black
+    red     = "#ff5555"  # Red
+    green   = "#50fa7b"  # Green
+    yellow  = "#f1fa8c"  # Yellow
+    blue    = "#bd93f9"  # Blue
+    magenta = "#ff79c6"  # Magenta
+    cyan    = "#8be9fd"  # Cyan
+    white   = "#bbbbbb"  # Light gray
+
+  [colors.bright]
+    black   = "#555555"  # Gray
+    red     = "#ff6e67"  # Bright Red
+    green   = "#5af78e"  # Bright Green
+    yellow  = "#f4f99d"  # Bright Yellow
+    blue    = "#caa9fa"  # Bright Blue
+    magenta = "#ff92d0"  # Bright Magenta
+    cyan    = "#9aedfe"  # Bright Cyan
+    white   = "#e6e6e6"  # Bright White
+

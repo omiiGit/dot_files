@@ -1,0 +1,52 @@
+return {
+    "NLKNguyen/papercolor-theme",
+    priority = 1000,
+    config = function()
+        -- Enable TrueColor support
+        vim.opt.termguicolors = true
+
+        -- Set the background to light
+        vim.opt.background = "dark"
+        -- Apply the PaperColor colorscheme
+        vim.cmd.colorscheme "PaperColor"
+
+        -- Custom color overrides for general syntax groups
+        vim.cmd([[
+        " Keywords (if, else, for, while, etc.)
+        highlight Keyword guifg=#4169E1 gui=bold
+
+        " Types and structures
+        highlight Type guifg=#008B8B gui=bold
+
+        " Statements (return, break, continue, etc.)
+        highlight Statement guifg=#4682B4 gui=bold
+
+        " Operators
+        highlight Operator guifg=#014080
+
+        " Functions and method names
+        highlight Function guifg=#8B4513 gui=bold
+
+        " Constants
+        highlight Constant guifg=#FF8C00
+
+        " Strings
+        highlight String guifg=#FFA500
+
+        " Characters
+        highlight Character guifg=#FF6600
+
+        " Numbers
+        highlight Number guifg=#FF4500
+
+        " Booleans
+        highlight Boolean guifg=#FF8C00
+
+        " Float numbers
+        highlight Float guifg=#FF4500
+
+        " Comments
+        highlight Comment guifg=#228B22 gui=italic
+        ]])
+    end
+}
